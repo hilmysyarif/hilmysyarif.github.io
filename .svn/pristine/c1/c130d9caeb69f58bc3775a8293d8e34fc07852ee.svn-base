@@ -1,0 +1,239 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-indosat-poin-senyum.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb">
+                              <li><a href="#">Personal</a></li>
+                              <li><a href="#">Prabayar</a></li>
+                              <li class="active">SMS &amp; Call Pintar</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                
+                        <div class="col-md-3 sidebar">
+                            <ul>
+                                <li><a href="#"><span>IM3</span></a></li>
+                                <li><a href="#"><span>Mentari</span></a></li>
+                                <li><a href="#"><span>Community</span></a></li>
+                                <li><a href="#"><span>UMB</span></a></li>
+                                <li class="active"><a href="#"><span>SMS &amp; Call Pintar</span></a></li>
+                                <li><a href="#"><span>Pulsa SOS</span></a></li>
+                                <li><a href="#"><span>Tektok Mobile</span></a></li>
+                                <li><a href="#"><span>Poin Senyum</span></a></li>
+                                <li><a href="#"><span>Twitbuy</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+
+                            <div class="row cms-content">
+
+                                <ul class="nav nav-tabs tabs-inside tabs-auto-width" role="tablist">
+                                    <li role="presentation">
+                                        <a href="#section-fitur">
+                                            <div class="tab-icon tab-icon-150" style="background-image:url(assets/img/content/icon-tab-fitur.png);"></div>
+                                            <span>Fitur</span>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#section-aktivasi">
+                                            <div class="tab-icon tab-icon-150" style="background-image:url(assets/img/content/icon-tab-aktivasi.png);"></div>
+                                            <span>Aktivasi</span>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#section-tarif">
+                                            <div class="tab-icon tab-icon-150" style="background-image:url(assets/img/content/icon-tab-tarif.png);"></div>
+                                            <span>Tarif</span>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#section-faq">
+                                            <div class="tab-icon tab-icon-150" style="background-image:url(assets/img/content/icon-tab-faq.png);"></div>
+                                            <span>FAQ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                                
+                                <div id="section-fitur">
+                                    <h3>Fitur</h3>
+                                    <p>Kebanjiran SMS atau Telepon Spam tidak menjadi masalah lagi dengan hadirnya fitur SMS & Call Pintar Indosat. Fitur ini memungkinkan pelanggan untuk memblokir pesan singkat atau panggilan yang tidak diinginkan dengan mendaftarkan nomor pengirim atau kata-kata yang tidak mau diterima.</p>
+                                    <p>Selain fitur blokir (blacklist) SMS & Call Pintar juga dilengkapi berbagai fitur lain yang  akan menambah kenyamanan  berkomunikasi seperti fitur Auto Reply, Auto Copy dan Auto Forward.</p>
+    
+                                    <ol type="number">
+                                        <li><strong>SMS Blacklist</strong><br/>Mampu memblokir SMS berdasarkan nomor ponsel dan kata kunci yang telah didaftarkan.</li>
+                                        <li><strong>Call Blacklist</strong><br/>Mampu memblokir panggilan berdasarkan nomor ponsel yang didaftarkan.</li>
+                                        <li><strong>SMS Auto Reply</strong><br/>Mampu membalas otomatis SMS yang diterima sesuai dengan pesan yang telah didaftarkan. Fitur ini selain cocok digunakan saat rapat, cuti, namun juga update status untuk dibagi ke sohib melalui SMS atau bahkan untuk promosi.</li>
+                                        <li><strong>SMS Auto Copy </strong><br/>Mampu meneruskan SMS yang diterima secara otomatis ke nomor ponsel yang didaftarkan.</li>
+                                        <li><strong>SMS Auto Forward</strong><br/>Mampu meneruskan SMS yang diterima meski nomor sedang tidak aktif.</li>
+                                    </ol>
+                                </div>
+                                <div id="section-aktivasi">
+                                    <h3>Aktivasi</h3>
+                                    <img src="assets/img/content/step-aktivasi-sms-call.png"/>
+                                </div>
+                                <div id="section-tarif">
+                                    <h3>Tarif</h3>
+                                    <table class="table table-striped table-1">
+                                        <thead>
+                                            <tr>
+                                                <th>Fitur</th>
+                                                <th>Tarif Sebelum PPN</th>
+                                                <th>Tarif Setelah PPN</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Registrasi Berlangganan Bulanan (30 hari) - SMS Pintar</td>
+                                                <td>1818</td>
+                                                <td>2000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Registrasi Berlangganan Mingguan (7 hari) - Call Pintar</td>
+                                                <td>2500</td>
+                                                <td>2750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Registrasi Berlangganan Bulanan (30 hari) - Call Pintar</td>
+                                                <td>8000</td>
+                                                <td>8800</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tambah No / Kata/ Pesan / Email / Jadwal</td>
+                                                <td>182</td>
+                                                <td>200</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hapus No / Kata/ Pesan / Email / Jadwal</td>
+                                                <td>182</td>
+                                                <td>200</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cek No / Kata/ Pesan / Email / Jadwal</td>
+                                                <td>182</td>
+                                                <td>200</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trafik* SMS Auto Reply / Copy / Forward - Tujuan Domestik</td>
+                                                <td>136</td>
+                                                <td>150</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trafik* SMS Auto Reply / Copy / Forward - Tujuan Internasional</td>
+                                                <td>1364</td>
+                                                <td>1500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Stop / Info</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="section-faq">
+                                    <h3>FAQ</h3>
+                                    <div class="panel-group accordion-1" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading active" role="tab" id="heading-1">
+                                                <h4 class="panel-title">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                                        1. Bagaimana mengaktifkan SMS Blacklist ?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                                                <div class="panel-body align-center">
+                                                    <img src="assets/img/content/img-faq-1.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading-2">
+                                                <h4 class="panel-title">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                                                        2. Bagaimana mengaktifkan SMS Blacklist ?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                                <div class="panel-body align-center">
+                                                    <img src="assets/img/content/img-faq-1.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading-3">
+                                                <h4 class="panel-title">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+                                                        3. Bagaimana mengaktifkan SMS Blacklist ?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
+                                                <div class="panel-body align-center">
+                                                    <img src="assets/img/content/img-faq-1.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>   
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+        $('.collapse').on('show.bs.collapse', function () {
+            $(this).parents('.panel-group').find('.panel-heading').removeClass('active');
+            $(this).parent().find('.panel-heading').addClass('active');
+        });
+        $('.collapse').on('hide.bs.collapse', function () {
+            $(this).parents('.panel-group').find('.panel-heading').removeClass('active');
+        });
+
+
+	});
+	</script>
+

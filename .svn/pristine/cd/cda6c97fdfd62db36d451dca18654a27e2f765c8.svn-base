@@ -1,0 +1,125 @@
+/* INDOSAT MAIN ---------------------- */
+/* prepared by SALT Indonesia -------- */
+
+/*
+	Yellow 		#fdc437
+	Yellow-2 	#ffc907
+	Red 		#ed1c24
+	Red-2 		#e9152c
+	Blue 		#00aeea
+	Teal 		#3fc0b0
+	Grey		#414141
+*/
+
+/* ------>>> GLOBAL HELPERS <<<------- */
+html,body {font-family:'FuturaStd-Book';}
+.align-center {text-align:center;}
+.align-left {text-align:left;}
+.align-right {text-align:right;}
+.no-margin {margin:0!important;}
+.no-padding {padding:0!important;}
+.row img {max-width:100%;}
+.voffset-15 {margin-bottom:15px;}
+.voffset-30 {margin-bottom:30px;}
+
+
+/* ----------->>> ICONS <<<----------- */
+.icon-search {width:19px; height:19px; background:url(../img/icon-search.png) center center no-repeat; display:inline-block;}
+.icon-footer {width:25px; height:25px; display:inline-block;vertical-align: middle;position: absolute;margin-left: 0;left: -15px;top: 7px;}
+.icon-footer-1 {background:url(../img/icon-footer-1.png) center center no-repeat;}
+.icon-footer-2 {background:url(../img/icon-footer-2.png) center center no-repeat;}
+.icon-footer-3 {background:url(../img/icon-footer-3.png) center center no-repeat;}
+.icon-footer-4 {background:url(../img/icon-footer-4.png) center center no-repeat;}
+.icon-tab-news-promo {vertical-align:middle; display:inline-block; width:30px; height:30px; background:url(../img/icon-hot-news.png) center center no-repeat;}
+.icon-tab-social-wall {vertical-align:middle; display:inline-block; width:30px; height:30px; background:url(../img/icon-social-wall.png) center center no-repeat;}
+.icon-tab-login-instant{vertical-align:middle; display:inline-block; width:30px; height:30px; background:url(../img/icon-login-instant.png) center center no-repeat;}
+
+
+/* ----------->>> BUTTONS <<<--------- */
+.btn-red {background:#ed1c24; color:#fff; text-shadow:none; border-radius:8px;}
+
+
+/* ---------->>> HEADER <<<----------- */
+.header-top {background:#fdc437; padding:0; margin:0; min-height:auto; border:0;}
+.header-top .navbar-nav > li > a {color:#1d1d1b; font-family:'FuturaStd-Medium'; padding: 3px 10px; margin-top: 5px; margin-bottom:5px; line-height: 16px; font-size:11px; display: inline-block; vertical-align: middle;}
+.header-top .navbar-nav>.active>a,
+.header-top .navbar-nav>.active>a:focus,
+.header-top .navbar-nav>.active>a:hover {background:#060607; color:#fff; border-radius:5px; font-size:12px;}
+.header-top .nav-language > li > a {color:#333333; font-family:'FuturaStd-Bold'; font-size:11px;border-left: 2px solid #333;padding: 0px 8px;line-height: 14px;margin: 9px 0;}
+.header-top .nav-language > li:first-child > a {border:none;}
+.header-top .nav-language>.active>a,
+.header-top .nav-language>.active>a:focus,
+.header-top .nav-language>.active>a:hover {background:none; color:#ed1c24; box-shadow:none; font-size:12px;}
+
+
+/* ------>>> MAIN NAVIGATION <<<------ */
+.main-navigation {background:#ed1c24; margin:0; border:none;}
+.main-navigation h1 {font-size:0px; display: inline-block; vertical-align: middle;}
+.main-navigation h1 img {height:60px;}
+.main-navigation ul {width:100%;}
+.main-navigation .navbar-nav > li > a {font-family:'ooredoo-Bold'; font-size:14px; color:#fff; text-align:center; padding:0; width:140px; line-height:80px; height:80px; border-right:1px solid #fff;}
+.main-navigation .navbar-nav > li:first-child > a {border-left:1px solid;}
+.main-navigation .navbar-nav > li > a span {display:inline-block; vertical-align:middle; line-height:normal;}
+.main-navigation .navbar-nav > li.li-search {float:right;}
+.main-navigation .navbar-nav > li.li-search > a {border-left:1px solid #fff;}
+
+
+/* ------>>> MAIN CONTENT <<<------ */
+.main-content {background:url(../img/bg-main-content.png) repeat;}
+.main-content .container {background:#fff; width:1280px; padding:0 90px;}
+
+
+/* ------->>> HERO BANNER <<<------ */
+.hero-banner {position:relative;}
+.hero-banner .cycle-pager-container {position:absolute; top:30%; right:17%;}
+.hero-banner .cycle-pager {position:absolute; top:0; right:0;}
+.hero-banner .cycle-pager span {display: block; margin-bottom:10px; border-radius: 50%;width: 15px;height: 15px;font-size: 0;cursor: pointer; background:#fff; border:1px solid red; opacity: 1;}
+.hero-banner .cycle-pager span.cycle-pager-active {background:#fee300;}
+.hero-banner .cycle-carousel-wrap {width:100%;}
+.hero-banner .item {height:390px; background-position:center center; background-repeat:no-repeat;}
+
+/* ---->>> TABS HEADLINE <<<------ */
+.tabs-headline {margin-right:8px; margin-left:8px;}
+.tabs-headline .nav-tabs {text-align:center; margin:25px 0; border-bottom:2px solid #ed1c24;}
+.tabs-headline .nav-tabs > li {float:none; display:inline-block;}
+.tabs-headline .nav-tabs > li a {background:#ed1c24; color:#fff; padding:3px 50px;}
+.tabs-headline .nav-tabs > li a span {margin-right:5px;}
+.tabs-headline .nav-tabs > li:hover a {background:#ed1c24;}
+.tabs-headline .tab-content a {text-decoration:none;}
+.tabs-headline .tab-content .caption {padding:25px; border-bottom-left-radius:8px; border-bottom-right-radius:8px;}
+.tabs-headline .tab-content .caption.blue {background:#00aeea;}
+.tabs-headline .tab-content .caption.yellow {background:#fdc437;}
+.tabs-headline .tab-content .caption.red {background:#e9152c;}
+.tabs-headline .tab-content .caption.teal {background:#3fc0b0;}
+.tabs-headline .tab-content .caption h2 {margin: 0 0 10px 0; font-family:'FuturaStd-Bold'; color:#fff; font-size:20px;}
+.tabs-headline .tab-content .caption p {font-family:'FuturaStd-Book'; color:#fff;font-size: 14px;line-height: 16px;}
+.tabs-headline .owl-theme .owl-controls .owl-buttons div {font-size:0; border-radius:0; position:absolute; top:50%; width:50px; height:50px; margin-top:-25px;}
+.tabs-headline .owl-theme .owl-controls .owl-buttons .owl-next {right:0; margin-right:-50px; background:url(../img/btn-next.png) center center no-repeat;}
+.tabs-headline .owl-theme .owl-controls .owl-buttons .owl-prev {left:0; margin-left:-50px; background:url(../img/btn-prev.png) center center no-repeat;}
+
+/* ---->>> THUMB GREY <<<------ */
+.thumb-grey {background:#dcdcdc; border-radius:10px; display:block; height:170px; padding:30px 15px;}
+.thumb-grey:hover {text-decoration:none;}
+.thumb-grey h2 {margin:0; font-size:28px; font-family:'ooredoo-Bold'; color:#060607; width:55%;}
+.thumb-grey p {color:#060607; font-family:'FuturaStd-Book'; font-size:16px; width:55%;}
+.thumb-grey.thumb-personal-assistant {background:url(../img/thumb-model-1.png) 95% top #dcdcdc no-repeat;}
+.thumb-grey.thumb-download-center {background:url(../img/thumb-model-2.png) right bottom #dcdcdc no-repeat;}
+.thumb-grey.thumb-lokasi-galeri h2 {width:100%;}
+.thumb-grey.thumb-lokasi-galeri p {width:100%;}
+
+/* ------->>> FOOTER <<<------ */
+.footer-top {background:#ffc907; margin-bottom:0; border:none; min-height:27px;}
+.footer-top .navbar-nav li a {font-size:12px; line-height: 27px;border-right: 1px solid #777;padding: 0 10px;}
+.footer-top .close-footer {position:relative; line-height:27px; font-family:'ooredoo-Regular'; color:#414141; font-size:12px;}
+.footer-top .close-footer:after {content:" "; width:100%; height:7px; display:block; background:url(../img/close-footer.png) center center no-repeat; position:absolute; top:20px;}
+.footer-body {background:#414141;}
+.footer-socmed {border-bottom:2px solid #bfbfbf;}
+.footer-socmed a { display:inline-block; padding:9px 70px; margin:20px 0; border-right:2px solid #bfbfbf;}
+.footer-socmed a:first-child {border-left:2px solid #bfbfbf;}
+.footer-nav {padding:30px 0;}
+.footer-nav .nav > li {display:inline-block;vertical-align: top;text-align: left; margin:0 20px;}
+.footer-nav .nav > li a {color:#bfbfbf; font-family:'FuturaStd-Medium';}
+.footer-nav .nav > li a:hover {background-color:transparent;}
+.footer-nav .nav > li ul {padding-left:15px; list-style:none;}
+.footer-nav .nav > li ul li a {font-size:12px;}
+

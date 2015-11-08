@@ -1,0 +1,93 @@
+
+        
+        <!-- LOGO SECTION -->
+        <div class="container">
+            <a href="#" class="logo-section matrix-ooreedoo">
+                <img src="assets/img/logo-matrix.png"/>
+            </a>
+        </div>
+        <!-- /LOGO SECTION -->
+         
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-matrix.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+                    
+                    <div class="row vinset-30 voffset-15">
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-matrix-1.png);">
+                                <h2 class="thick">We cover you<br/>24 hours</h2>
+                                <p>Call & SMS to all operators 24 Hours</p>
+                                <a href="#">Find More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-matrix-2.png);">
+                                <h2 class="thick">Free abonemen</h2>
+                                <p>Just pay as you use</p>
+                                <a href="#">Check Here</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-matrix-3.png);">
+                                <h2 class="thick">Pay monthly.<br/>Get smartphone.</h2>
+                                <p>Choose your favorite smartphone with the preferable installment</p>
+                                <a href="#">Get It Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row voffset-30">
+                        <div class="col-md-6">
+                            <div class="thumb color medium" style="background-image:url(assets/img/content/thumb-color-matrix-1.jpg);">
+                                <h2>Comfortable with your chair?</h2>
+                                <p>Registration online here </p>
+                                <a href="#" class="btn-red">Find Out Now</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="thumb color medium" style="background-image:url(assets/img/content/thumb-color-matrix-2.jpg);">
+                                <h2>Always updated with<br/>your usage</h2>
+                                <p>Check your usage</p>
+                                <a href="#" class="btn-red">Find Out Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

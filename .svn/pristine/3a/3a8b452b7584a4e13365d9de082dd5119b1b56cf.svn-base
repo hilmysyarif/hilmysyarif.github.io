@@ -1,0 +1,109 @@
+
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-mobile-agent.jpg)"></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+			
+			<div class="row">
+				<div class="container">
+					
+					<!-- BREADCRUMB -->
+					<div class="row">
+						<div class="col-md-12">
+						
+							<ol class="breadcrumb">
+							  <li><a href="#">Personal</a></li>
+							  <li><a href="#">Connectivity</a></li>
+							  <li><a href="#">All About 4G+</a></li>
+							  <li class="active">Mobile Agent</li>
+							</ol>
+							
+						</div>
+					</div>
+					<!-- BREADCRUMB -->
+					
+					<!-- DETAIL WRAP -->
+					<div class="row">
+						<div class="col-md-12 detail-wrapper">
+							
+							<div class="theTItle">
+								<h1>Mobile Agent</h1>
+							</div>
+							
+							<div class="theContent">
+								
+								<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+								dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+								blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+								doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes.
+								</p>
+								
+								<br />
+								
+								<h2>
+									Segera Tukarkan Secara GRATIS Kartu Indosat Lama Anda<br />
+									dengan Kartu USIM 4G-LTE, cukup dengan membawa :
+								</h2>
+								
+								<br /><br />
+								
+								<div class="row featured-step ta-center">
+									<div class="col-md-6 theItems">
+										<img src="assets/img/content/upgrade-step-1.png" alt="Handphone Kamu" />
+										<p class="text-color-softGreen"><strong>Handphone Kamu</strong></p>
+									</div>
+									<div class="col-md-6 theItems">
+										<img src="assets/img/content/upgrade-step-2.png" alt="Handphone Kamu" />
+										<p class="text-color-softGreen"><strong>Kartu Identitas</strong></p>
+									</div>
+								</div>
+								
+								<br /><br />
+								
+								<h4><strong>Lorem ipsum dolor sit amet temukan mobile agent kami pada lokasi di bawah ini :</strong></h4>
+								
+								<br /><br />
+								
+								<div class="
+								
+							</div>
+							
+						</div>
+					</div>
+					<!-- DETAIL WRAP -->
+					
+				</div>
+			</div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

@@ -1,0 +1,146 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/banner-bisnis-1.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+            
+            <div class="row">
+                <div class="container">
+                    
+                    <div class="row thumbnail-1 voffset-30">
+                        <div class="col-md-12">
+                            <h2 class="has-border"><span>Product</span></h2>
+                            <div class="row">
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-mobile.jpg"></a>
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-convergence.jpg"></a>
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-m2m.jpg"></a>
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-it-services.jpg"></a>
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-connectivity.jpg"></a>
+                                <a href="#" class="col-md-4"><img src="assets/img/content/banner-satelite.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row slider-1 voffset-30">
+                        <div class="col-md-12">
+                            <h2 class="has-border"><span>News</span></h2>
+                            <div class="owl-carousel">
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-bisnis-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Indosat dan MNC Investama bersinergi dalam bidang Telekomunikasi, Teknologi Informasi dan Jasa Keuangan</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-bisnis-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Indosat dan MNC Investama bersinergi dalam bidang Telekomunikasi, Teknologi Informasi dan Jasa Keuangan</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-bisnis-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Indosat dan MNC Investama bersinergi dalam bidang Telekomunikasi, Teknologi Informasi dan Jasa Keuangan</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-bisnis-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Indosat dan MNC Investama bersinergi dalam bidang Telekomunikasi, Teknologi Informasi dan Jasa Keuangan</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-bisnis-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Indosat dan MNC Investama bersinergi dalam bidang Telekomunikasi, Teknologi Informasi dan Jasa Keuangan</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row slider-1 voffset-30">
+                        <div class="col-md-12">
+                            <h2 class="has-border"><span>Video</span></h2>
+                            <div class="owl-carousel">
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                                <a href="#" class="item col-md-12">
+                                    <div class="image"><img src="assets/img/content/thumb-video-1.jpg"></div>
+                                    <div class="caption">
+                                        <h3>Instantly Perfect with Super 4G LTE</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

@@ -1,0 +1,399 @@
+
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-mobile-agent.jpg)"></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+			
+			<div class="row">
+				<div class="container">
+					
+					<!-- BREADCRUMB -->
+					<div class="row">
+						<div class="col-md-12">
+						
+							<ol class="breadcrumb">
+							  <li><a href="#">Personal</a></li>
+							  <li class="active">Bantuan</li>
+							</ol>
+							
+						</div>
+					</div>
+					<!-- BREADCRUMB -->
+					
+					<div class="row">
+                
+                        <div class="col-md-3 sidebar">
+                            <ul>
+                                <li><a href="#">Hubungi Kami</a></li>
+                                <li><a href="#">Galeri Indosat</a></li>
+                                <li><a href="#">Komunitas (Forum ICITY)</a></li>
+                                <li><a href="#">Tips dan Tanya Jawab</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+					
+							<!-- DETAIL WRAP -->
+							<div class="row">
+								<div class="col-md-12 detail-wrapper">
+									
+									<div class="theContent cms-content">
+									
+										<h3>Berbagai Tips dan Jawaban atas pertanyaan Anda ada disini</h3>
+										
+										<br /><br />
+										
+										<div class="row flex-list four bottom">
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalBilling.png" alt="Tagihan" />
+												<br /><br />
+												<p>Tagihan</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalDevice.png" alt="Perangkat" />
+												<br /><br />
+												<p>Perangkat</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalMessaging.png" alt="SMS" />
+												<br /><br />
+												<p>SMS</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalInternet.png" alt="Internet & Blackberry" />
+												<br /><br />
+												<p>Internet &amp; Blackberry</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalInstant.png" alt="INSTANT" />
+												<br /><br />
+												<p>INSTANT</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/20150326164320_imgIntRoamingTips.png" alt="International Roaming" />
+												<br /><br />
+												<p>International Roaming</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalVoiceCall.png" alt="Layanan Telepon" />
+												<br /><br />
+												<p>Layanan Telepon</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalOther.png" alt="Klik disini" />
+												<br /><br />
+												<p>Klik Disini</p>
+											</div>
+										</div>
+										
+										<br /><br />
+										
+										<div class="row flex-list two">
+											
+											<div class="flex-item background-gray">
+												<h3 class="panel-title">Bantuan Terpopuler</h3>
+												<br />
+												<div class="row">
+													<div class="col-sm-6">
+														
+														<ul>
+															<li>Tagihan</li>
+															<li>Internet dan Blackberry</li>
+															<li>INSTANT</li>
+														</ul>
+														
+													</div>
+													<div class="col-sm-6">
+														
+														<ul>
+															<li>International Roaming</li>
+															<li>Dompetku</li>
+															<li>SMS dan Email</li>
+														</ul>
+														
+													</div>
+												</div>
+											</div>
+											
+											<div class="flex-item background-gray">
+												<h3 class="panel-title">Hubungi Kami</h3>
+												<br />
+												<p>Sampaikan pertanyaan, keluhan, ataupun saran Anda terkait produk dan layanan Indosat.</p>
+												<a href="#" class="defaultButton smaller">Hubungi Kami</a>
+												
+											</div>
+											
+										</div>
+
+										<br /><br />
+										
+										<div id="section-faq">
+											<h3>Unduh Aplikasi</h3>
+											<div class="panel-group accordion-1" id="accordion" role="tablist" aria-multiselectable="true">
+												<div class="panel panel-default">
+													<div class="panel-heading active" role="tab" id="heading-1">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+																SuperWIFI
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="heading-2">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+																Arena Musik
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="heading-3">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+																Cipika Store
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="heading-4">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+																Dompetku
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="heading-5">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
+																ICITY
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="heading-6">
+														<h4 class="panel-title">
+															<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-6" aria-expanded="true" aria-controls="collapse-6">
+																Instant
+															</a>
+														</h4>
+													</div>
+													<div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-6">
+														<div class="panel-body align-center">
+															
+															<div class="row">
+																<div class="col-sm-8 flex-list three bottom">
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Android</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />iOS</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																	<div class="flex-item ta-center">
+																		<img src="assets/img/content/indosat-super-wifi.png" alt="SuperWIFI Android" />
+																		<br />
+																		<p>SuperWIFI<br />Blackberry</p>
+																		<a href="#" class="defaultButton smaller">Unduh</a>
+																	</div>
+																</div>	
+															</div>	
+															
+														</div>
+													</div>
+												</div>
+												
+											</div>   
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							<!-- DETAIL WRAP -->
+						
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+	});
+	</script>

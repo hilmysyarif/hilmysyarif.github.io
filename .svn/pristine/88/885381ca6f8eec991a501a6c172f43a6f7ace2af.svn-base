@@ -1,0 +1,208 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-community.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb">
+                              <li><a href="#">Support</a></li>
+                              <li class="active">Community</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                
+                        <div class="col-md-3 sidebar">
+                            <ul>
+                                <li><a href="#"><span>Contact Us</span></a></li>
+                                <li><a href="#"><span>Digital Guru</span></a></li>
+                                <li><a href="#"><span>Indosat Gallery</span></a></li>
+                                <li class="active"><a href="#"><span>Community</span></a></li>
+                                <li><a href="#"><span>Tips &amp; FAQ</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+
+                            <div class="row cms-content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-1.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Duta IM3</h2>
+                                                <p>Pengen tau serunya Duta Im3 ? Ayoo gabung dan ikuti keseruannya bersa....</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-2.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Komunitas Indosat dari Adira Finance</h2>
+                                                <p>Nasabah atau karyawan Adira Finance Nasional kamu bisa menga...</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-3.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Kartu merah putih</h2>
+                                                <p>Kartu Pra Bayar yang mempunyai misi memajukan olahraga dan olahraga...</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-4.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>SC Chat: komunitas bola &amp; sport</h2>
+                                                <p>Pengen tau serunya Duta Im3 ? Ayoo gabung dan ikuti keseruannya bersam...</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-5.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Yuk gabung komunitas</h2>
+                                                <p>Nasabah atau karyawan Adira Finance Nasional kamu bisa menga...</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-6.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>JKT48 official fans club</h2>
+                                                <p>Hang out bareng oshi kamu bukan lagi mimpi!!!</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-7.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>ICITY Indosat</h2>
+                                                <p>Ayo gabung di komunitas Indosat!! Berbagi ide dan keseruan bersama...</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-8.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Arena sport club</h2>
+                                                <p>Gabung Arena Sports Club sekarang dan dapatkan info-info sepak bola....</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="thumb thumb-com img">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/img-com-9.jpg"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Komunitas IndoBarca</h2>
+                                                <p>Bergabunglah bersama komunitas supporter FC Barcelona terbesar di....</p>
+                                            </div>
+                                            <div class="btn-see-join">
+                                                <a href=""><span> Lihat &amp; Gabung </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

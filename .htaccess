@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !/pages
+RewriteCond %{REQUEST_URI} !/assets
+RewriteRule ^(.*)$ index.html?q=$1 [L,QSA]
+</IfModule>
+
+# END WordPress

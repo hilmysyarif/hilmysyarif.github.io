@@ -1,0 +1,237 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-international-roaming.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb">
+                              <li><a href="#">Personal</a></li>
+                              <li class="active">International &amp; Roaming</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                
+                        <div class="col-md-3 sidebar">
+                            <ul>
+                                <li><a href="#"><span>Berpergian ke Luar Negeri</span></a></li>
+                                <li><a href="#"><span>IDD 001 &amp; 008 dan SMS Internasional</span></a></li>
+                                <li><a href="#"><span>Flat Call 01016</span></a></li>
+                                <li><a href="#"><span>Promo Internasional</span></a></li>
+                                <li><a href="#"><span>Visit Indonesia</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+
+                            <div class="row cms-content">
+                                <div class="row grid1-wrp">
+                                    <div class="col-md-3">
+                                        <div class="thumb thumb-IR img bgfbbb45">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-img-1.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Tarif Data Sepuasnya</h2>
+                                                <p>Kini dengan Tarif Baru! Makin nyaman dengan Internet & BlackBerry Sepuasnya mulai Rp. 35.000/hari.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="thumb thumb-IR img bgee673c">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-img-2.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Praktis &amp; Bebas Khawatir</h2>
+                                                <p>Tidak perlu Setting / Pilih Jaringan. Langsung pakai saat sampai. DIJAMIN Bebas Lonjakan Tagihan Data.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="thumb thumb-IR img bg8c5da4">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-img-3.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Cakupan Negara Terluas</h2>
+                                                <p>Tarif baru menjangkau 173 negara, di semua operator.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="thumb thumb-IR img bge771ac">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-img-4.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <h2>Tarif Sederhana dan Terjangkau</h2>
+                                                <p>Perhitungan tarif sederhana, terjangkau, dan sudah termasuk PPN 10%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 grid1-note clearfix">
+                                        <p class="left">Catatan : </p>
+                                        <p class="right">Saat berada di jaringan satelit (thuraya) dan maritim <span>(kapal laut, kapal terbang, telepon satelit dan negara tertentu)</span> berlaku tarif khusus <a href="">(klik di sini)</a></p>
+                                    </div>
+                                </div>
+                                <div class="row grid2-wrp">
+                                    <h2>Tujuan Favorit International Roaming</h2>
+                                    <div class="col-md-12">
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-satelit.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Satelit</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-singapore.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Singapore</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-malaysia.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Malaysia</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-arab.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Arab Saudi</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-china.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>China</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/content/IR-jepang.png"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Jepang</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row grid3-wrp">
+                                    <h2>Cari Tarif IDD 001 008</h2>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" >
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="thumb thumb-IR img clearfix">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/content/IR-IDD.png"/>
+                                                </div>
+                                                <div class="caption">
+                                                    <h2>IDD 001 008</h2>
+                                                    <p>Sambungan langsung ke luar negeri dari semua nomor Indosat maupun non-Indosat.</p>
+                                                    <p><a href="">Info Lengkap</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="thumb thumb-IR img clearfix">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/content/IR-flat.png"/>
+                                                </div>
+                                                <div class="caption">
+                                                    <h2>FLAT CALL 01016</h2>
+                                                    <p>Telepon ke luar negeri dengan tarif murah & promo menarik lainnya.</p>
+                                                    <p><a href="">Info Lengkap</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="thumb thumb-IR img clearfix">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/content/IR-promoInt.png"/>
+                                                </div>
+                                                <div class="caption">
+                                                    <h2>PROMO INTERNASIONAL</h2>
+                                                    <p>Beragam promo layanan internasional menarik bagi Anda pelanggan Indosat.</p>
+                                                    <p><a href="">Info Lengkap</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="thumb thumb-IR img clearfix">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/content/IR-visit.png"/>
+                                                </div>
+                                                <div class="caption">
+                                                    <h2>VISIT INDONESIA</h2>
+                                                    <p>Untuk Anda yang sedang berkunjung ke Indonesia dan ingin menggunakan jaringan Indosat.</p>
+                                                    <p><a href="">Info Lengkap</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>
