@@ -1,0 +1,206 @@
+<!-- BREADCRUMB -->
+<div class="container-fluid">
+    <div class="row">
+        <ol class="breadcrumb ">
+            <li><a href="#">Bisnis</a></li>
+            <li class="active"><a href="#">Bantuan</a></li>
+        </ol>
+    </div>
+</div>
+<!-- BREADCRUMB -->
+<!-- MAIN CONTENT -->
+<div class="container-fluid main-content">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- DETAIL WRAP -->
+                    <div class="row">
+                        <div class="detail-wrapper">
+                            <div class="theTItle">
+                                <h3 class="text-color-gray">Form business-support</h3>
+                                <small>Lengkapilah informasi mengenai perusahaan & pertanyaan Anda agar kami dapat memberikan solusi terbaik</small>
+                                <div class="m2m-box">
+                                    <div class="row">
+                                        <h3 class="container" style="margin-bottom:-10px !important"><small>Tentang Anda</small></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="theContent">
+                                <!--- Permohonan Rapat -->
+                                <div class="form">
+                                    <form action="#">
+                                        <div class="text-input">
+                                            <input type="text" name="nama" id="username" placeholder="Nama *" />
+                                            <span class="separator"> </span>
+                                        </div>
+                                        <div class="text-input">
+                                            <input type="text" name="Perusahaan" id="" placeholder="Alamat Email" />
+                                            <span class="separator"> </span>
+                                        </div>
+                                        <div class="text-input">
+                                            <input type="text" name="Telepon" id="" placeholder="Nomor Kontak *" />
+                                            <span class="separator"> </span>
+                                        </div>
+                                        <div class="form-group">
+                                            <select id="select">
+                                                <option value="0"></option>
+                                                <option value="169">Enterpreneur/Wirausaha</option>
+                                                <option value="170">Perseroan Terbatas (PT)</option>
+                                                <option value="171">Perusahaan Daerah (PD)</option>
+                                                <option value="178">PERUM</option>
+                                                <option value="179">Persekutuan Komaditer (CV)</option>
+                                                <option value="180">Usaha Dagang</option>
+                                                <option value="181">Koperasi Unit Desa (KUD)</option>
+                                                <option value="182">Koperasi</option>
+                                                <option value="183">Universitas</option>
+                                                <option value="184">Kedutaan Besar</option>
+                                                <option value="185">Kementrian</option>
+                                                <option value="186">Yayasan</option>
+                                                <option value="187">Kantor Notaris</option>
+                                                <option value="188">Lainnya</option>
+                                            </select>
+                                            <label for="select">Kategory Usaha</label><i class="bar"></i>
+                                        </div>
+                                        <div class="form-radio">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="radio" checked="checked" /><i class="helper"></i>I'm the label from a radio button
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="radio" /><i class="helper"></i>I'm the label from a radio button
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="text-input">
+                                            <input type="text" name="Subject" id="" placeholder="Subject *" />
+                                            <span class="separator"> </span>
+                                        </div>
+                                        <div class="text-input">
+                                            <input type="text" name="Pesan" id="" placeholder="Pesan *" />
+                                            <span class="separator"> </span>
+                                        </div>
+                                        <div class="form-bottom">
+                                            <div class="col-xs-3"></div>
+                                            <input type="submit" class="col-xs-6" id="submit" value="Submit" />
+                                            <div class="col-xs-3"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--- / Permohonan Rapat -->
+                            </div>
+                            <div align="center" class="container">
+                                <a href="#" class="backtotop col-xs-12">
+                                    <span style="font-size:30px; font-weight:thin;" class="glyphicon glyphicon-menu-up col-xs-12" aria-hidden="true"></span>
+                                    <h5 class="col-xs-12">Back To Top</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DETAIL WRAP -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /MAIN CONTENT -->
+<script>
+this.find('select').each(function(i) {
+    var placeholder = $(this).attr('placeholder');
+    var type = ($(this).attr('multiple') ? 'checkbox' : 'radio');
+    var name = id = $(this).attr('name');
+    var $wrap = $(this).wrap("<div class='material-select'></div>").parent();
+    if (type == 'checkbox') {
+        name += '[]';
+        var $bar = $('<span class="material-bar"></span>');
+        $wrap.append($bar).addClass('checkbox');
+    } else {
+        var $title = $('<span class="material-title">' + placeholder + '</span>');
+        $wrap.prepend($title);
+    }
+
+    var $label = $('<label for="select-' + i + '"><span>' + placeholder + '</span><strong></strong></label>');
+    var $checkbox = $('<input type="checkbox" id="select-' + i + '">');
+
+    $wrap.prepend($checkbox);
+    $wrap.prepend($label);
+
+    var $list = $('<ul class="' + type + '"></ul>');
+    $wrap.append($list);
+
+    var selected_length = 0;
+    var length = $(this).children('option').length;
+    var $selected;
+    $(this).children('option').each(function(j) {
+        var title = $(this).text();
+        var value = $(this).val();
+
+        var selected = $(this).hasAttr('selected');
+
+        var $list_item = $('<li></li>');
+        $list.append($list_item);
+
+        var $label = $('<label for="' + id + '-' + j + '">' + title + '</label>');
+        var $input = $('<input type="' + type + '" value="' + value + '" name="' + name + '" id="' + id + '-' + j + '">');
+        if (selected) {
+            $selected = $input.prop('checked', true);
+            selected_length++;
+        }
+
+        $list_item.append($input);
+        $list_item.append($label);
+    });
+    if ($bar) {
+        var percentage = selected_length / length * 100;
+        $bar.width(percentage + '%');
+    } else {
+        if (selected_length) {
+            $label.children('span').text($selected.next('label').text())
+            $wrap.addClass('filled');
+        }
+    }
+    $(this).remove();
+});
+
+$(document).on('click', function(e) {
+    if ($(e.target).closest('.material-select').length === 0) {
+        // cancel highlighting 
+        $('.material-select > input').prop('checked', false);
+    }
+});
+
+$('.material-select > input').on('change', function() {
+    var changed_id = $(this).attr('id');
+    $('.material-select > input').each(function() {
+        var this_id = $(this).attr('id');
+        if (changed_id != this_id)
+            $(this).prop('checked', false);
+    });
+});
+
+$('.material-select ul input').on('change', function() {
+if ($(this).closest('.material-select.checkbox').length) {
+    var $ul = $(this).closest('ul')
+    var length = $ul.find('input').length;
+    var checked_length = $ul.find('input:checked').length;
+    var percentage = checked_length / length * 100;
+    $(this).closest('.material-select').find('.material-bar').width(percentage + '%');
+} else {
+    var $material_select = $(this).closest('.material-select')
+    var $label = $material_select.children('label').children('span');
+    var $next = $(this).next('label');
+    $label.text($next.text());
+    $material_select.children('input').prop('checked', false);
+    $material_select.addClass('filled');
+}
+});
+
+};
+});
+
+$(function() {
+    $('form.material').materialForm();
+});
+</script>
