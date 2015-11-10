@@ -1,0 +1,150 @@
+
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-mobile-agent.jpg)"></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+			
+			<div class="row">
+				<div class="container">
+					
+					<!-- BREADCRUMB -->
+					<div class="row">
+						<div class="col-md-12">
+						
+							<ol class="breadcrumb">
+							  <li><a href="#">Personal</a></li>
+							  <li class="active">Bantuan</li>
+							</ol>
+							
+						</div>
+					</div>
+					<!-- BREADCRUMB -->
+					
+					<div class="row">
+                
+                        <div class="col-md-3 sidebar">
+                            <ul>
+                                <li><a href="#">Hubungi Kami</a></li>
+                                <li><a href="#">Galeri Indosat</a></li>
+                                <li><a href="#">Komunitas (Forum ICITY)</a></li>
+                                <li><a href="#">Tips dan Tanya Jawab</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+					
+							<!-- DETAIL WRAP -->
+							<div class="row">
+								<div class="col-md-12 detail-wrapper">
+									
+									<div class="theContent">
+									
+										<h3>Berbagai Tips dan Jawaban atas pertanyaan Anda ada disini</h3>
+										
+										<br /><br />
+										
+										<div class="row flex-list">
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalBilling.png" alt="Tagihan" />
+												<br /><br />
+												<p>Tagihan</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalDevice.png" alt="Perangkat" />
+												<br /><br />
+												<p>Perangkat</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalMessaging.png" alt="SMS" />
+												<br /><br />
+												<p>SMS</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalInternet.png" alt="Internet & Blackberry" />
+												<br /><br />
+												<p>Internet &amp; Blackberry</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalInstant.png" alt="INSTANT" />
+												<br /><br />
+												<p>INSTANT</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/20150326164320_imgIntRoamingTips.png" alt="International Roaming" />
+												<br /><br />
+												<p>International Roaming</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalVoiceCall.png" alt="Layanan Telepon" />
+												<br /><br />
+												<p>Layanan Telepon</p>
+											</div>
+											<div class="flex-item col-sm-6 col-md-3 ta-center">
+												<img src="assets/img/content/imgPersonalOther.png" alt="Klik disini" />
+												<br /><br />
+												<p>Klik Disini</p>
+											</div>
+										</div>
+										
+										<img src="assets/img/content/twitbuy-banner.jpg" alt="Ikuti langkah mudah ini untuk beli paket dengan #twitBuy" />
+										<br /><br /><br />
+										<img src="assets/img/content/twitbuy-step.jpg" alt="Ikuti langkah mudah ini untuk beli paket dengan #twitBuy" />
+										
+										<br /><br /><br />
+										
+										<ol class="rednumber-list">
+											<li>Follow akun twitter @indosatmania</li>
+											<li>Cek DM promosi #TwitBuy dari @indosatmania atau ketik #twitBuy via DM.</li>
+											<li>Daftarkan nomor hp kamu melalui SMS dan kirim ke 2222. Tunggu balasan berisi kode pendek via DM.</li>
+											<li>Cek konfirmasi pendaftaran sukses dan tunggu instruksi selanjutnya via DM.</li>
+											<li>Ketik #menu via DM untuk melihat aneka jenis paket yang bisa dibeli.</li>
+											<li>Pilih paket yang mau dibeli.</li>
+											<li>Kamu akan menerima 2 buah DM dari @indosatmania berisi info paket sedang dalam proses dan info tentang pelayanan pelanggan</li>
+											<li>Kamu akan menerima SMS dari Indosat berisi status pembelian paket. Paket kamu siap digunakan!</li>
+										</ol>
+										
+										<br /><br /><br />
+										
+										<a href="#" class="btn-gray bigger">FAQ</a>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							<!-- DETAIL WRAP -->
+						
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+	});
+	</script>

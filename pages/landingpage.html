@@ -1,0 +1,61 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/TENTANG---LANDING-PAGE.jpg)"><a href="#"></a></div>
+                    <div class="item" style="background-image:url(assets/img/content/TENTANG---LANDING-PAGE.jpg)"><a href="#"></a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+                    
+                    <div class="vinset-30 voffset-15">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="assets/img/content/thumb1.jpg"/ >
+                        </div>
+                    </div>
+
+                   <div class="vinset-30 voffset-15">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="assets/img/content/thumb2.jpg"/ >
+                        </div>
+                    </div>
+                    
+                    <div class="vinset-30 voffset-15">
+                        <div class="col-md-4">
+                             <img class="img-responsive" src="assets/img/content/thumb3.jpg"/ >
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+        
+    <script>
+    $(document).ready(function(){
+    
+        $('.owl-carousel').owlCarousel({
+            'items' : 4,
+            'navigation' : true,
+            'pagination' : false
+        });
+
+
+    });
+    </script>

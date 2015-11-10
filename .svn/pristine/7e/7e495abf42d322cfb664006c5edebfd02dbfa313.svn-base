@@ -1,0 +1,182 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-4.jpg)"><a href="#">dfdfd</a></div>
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-1.jpg)"><a href="#">dfdfd</a></div>
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-2.jpg)"><a href="#">dfdfdfdfdf</a></div>
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-3.jpg)"><a href="#">ddfddf</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            
+            <div class="row">
+                <div class="container">
+                    
+                
+                    <!-- TABS-HEADLINE -->
+                    <div class="row tabs-headline voffset-30">
+
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab-news-promo" aria-controls="home" role="tab" data-toggle="tab"><span class="icon-tab-news-promo"></span>Hot News and Promo</a></li>
+                            <li role="presentation"><a href="#tab-social-wall" aria-controls="profile" role="tab" data-toggle="tab"><span class="icon-tab-social-wall"></span>Social Wall</a></li>
+                            <li role="presentation"><a href="#tab-login-instant" aria-controls="messages" role="tab" data-toggle="tab"><span class="icon-tab-login-instant"></span>Login to Instant</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+
+                        <marquee scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="">HATI-HATI penipuan bentuk apapun atas nama INDOSAT. Cek kebenarannya, Hubungi Call Center kami 24 jam di : 100/111, 021 5438 8888, 3000 3000, 3011 1111 atau <a style="color: blue; text-decoration: underline;" href="http://indosat.com/penipuan">indosat.com/penipuan</a></marquee>
+
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="tab-news-promo">
+                                <div class="owl-carousel">
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-1.jpg"></div>
+                                        <div class="caption blue">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-2.jpg"></div>
+                                        <div class="caption yellow">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-3.jpg"></div>
+                                        <div class="caption red">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-4.jpg"></div>
+                                        <div class="caption teal">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-1.jpg"></div>
+                                        <div class="caption blue">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-2.jpg"></div>
+                                        <div class="caption yellow">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-3.jpg"></div>
+                                        <div class="caption red">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-4.jpg"></div>
+                                        <div class="caption teal">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-social-wall">
+                                tab social wall
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-login-instant">
+                                tab login instant
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /TABS-HEADLINE --> 
+
+                    <div class="row voffset-30">
+                        <div class="col-md-12">
+                            <div class="thumb color tall big full" style="background-image:url(assets/img/content/banner-digital-blog-full.jpg);">
+                                <h2>Keep you updated<br/>with the latest<br/>digital trends<br/></h2>
+                                <a href="#" class="btn-red">Find Out More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row voffset-30">
+                        <div class="col-md-4">
+                            <a href="#" class="thumb grey short thumb-personal-assistant">
+                                <h2>Personal Assistant</h2>
+                                <p>Membuat hidup kamu lebih mudah!</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="thumb grey short thumb-download-center">
+                                <h2>Download Center</h2>
+                                <p>Mudahkan Gaya Hidup Digital Kamu Dengan Aplikasi Dari Indosat</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb grey short thumb-lokasi-galeri">
+                                <h2>Lokasi Galeri</h2>
+                                <p>Super WI FI &amp; Area 3G Indosat</p>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="input-cari-lokasi"/>
+                                    </div>
+                                    <button type="submit" class="btn btn-default btn-red">Cari Lokasi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row voffset-30">
+                        <div class="col-md-6">
+                            <div class="thumb color tall big" style="background-image:url(assets/img/content/banner-home-bundle.jpg);">
+                                <h2>Complete your<br/>digital lifestyle with<br/>affordable<br/>smartphone</h2>
+                                <a href="#" class="btn-red">Find Out More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="thumb color tall big" style="background-image:url(assets/img/content/banner-home-package.jpg);">
+                                <h2>Find out which<br/>package will give<br/>you the best<br/>digital experience </h2>
+                                <a href="#" class="btn-red">Find Out More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

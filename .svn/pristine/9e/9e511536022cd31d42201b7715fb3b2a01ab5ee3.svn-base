@@ -1,0 +1,110 @@
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-4g.jpg)"><a href="#">dfdfd</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            <div class="row">
+                <div class="container">
+                    
+                    <div class="row vinset-30 voffset-15">
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-4g-1.png);">
+                                <h2>Want to know more about 4G?</h2>
+                                <p>Why is it worth upgrade to 4G Plus?</p>
+                                <a href="#">Find More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-4g-2.png);">
+                                <h2>Check Indosat 4Gplus coverage</h2>
+                                <p>Make sure you are covered with 4G Plus.</p>
+                                <a href="#">Find More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb light-grey tall" style="background-image:url(assets/img/content/thumb-4g-3.png);">
+                                <h2>4Gplus for all</h2>
+                                <p>im3, mentari or matrix? You are all invited</p>
+                                <a href="#">Find More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row voffset-15">
+                        <div class="col-md-6">
+                            <div class="thumb color short" style="background-image:url(assets/img/content/small-banner-4g-1.jpg);">
+                                <h2>Meet our agent to switch your life to 4G</h2>
+                                <p>Find us and we will help you to upgrade to 4G Plus</p>
+                                <a href="#" class="btn-red">Find Now</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="thumb color short" style="background-image:url(assets/img/content/small-banner-4g-2.jpg);">
+                                <h2>Switch to 4Gplus simcards near you</h2>
+                                <p>Visit us at the nearest Indosat Ooredoo Gallery</p>
+                                <a href="#" class="btn-red">Switch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row voffset-15">
+                        <div class="col-md-12">
+                            <div class="thumb light-grey tall big" style="background-image:url(assets/img/content/thumb-4g-4.png);">
+                                <h2>Affordable 4G phone<br/>for everyone</h2>
+                                <p>check your phone compatibility</p>
+                                <a href="#">Get It Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row voffset-30">
+                        <div class="col-md-6">
+                            <div class="thumb color medium" style="background-image:url(assets/img/content/small-banner-4g-3.jpg);">
+                                <h2>We’ll provide you a lot of tricks to live with 4G</h2>
+                                <p>We’ll provide you a lot of tricks to live with 4G</p>
+                                <a href="#" class="btn-red">Find Out Now</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="thumb color medium" style="background-image:url(assets/img/content/small-banner-4g-4.jpg);">
+                                <h2>Set up the connection you deserve</h2>
+                                <p>Need help for setting up your 4G Plus? </p>
+                                <a href="#" class="btn-red">Switch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

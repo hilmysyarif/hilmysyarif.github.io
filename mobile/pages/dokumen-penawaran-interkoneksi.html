@@ -1,0 +1,149 @@
+
+		<!-- BREADCRUMB -->
+		<div class="container-fluid">
+		  <div class="row">
+		  
+			<ol class="breadcrumb ">
+			  <li><a href="#">Tentang Indosat</a></li>
+			  <li><a href="#">Profile Perusahaan</a></li>
+			  <li class="active"><a href="#">Dokumen Penawaran-Interkoneksi</a></li>
+			</ol>
+			
+		  </div>
+		</div>
+		<!-- BREADCRUMB -->
+
+		<!-- MAIN CONTENT -->
+		<div class="container-fluid main-content">
+			
+			<div class="bg-white row container-fluid head-title">
+				<h3>Dokumen Penawaran Interkoneksi (DPI)</h3>
+			</div>
+
+			<div class="row bg-white laporan-content">
+				<div class="container">
+					<div class="row">
+						<h4 class="has-border2 text-left">Dokumen Penawaran Interkoneksi (DPI)</h4>
+						<div class="isi">
+							<p class="col-xs-11">Dokumen Penawaran Indosat</p>
+							<span class="col-xs-1 glyphicon glyphicon-save pull-right"></span>
+							<span class="hr-line col-xs-12"></span>
+						</div>
+					</div>
+					<div class="row">
+						<h4 class="has-border2 text-left">Daftar Perubahan I</h4>
+						<div class="isi">
+							<p class="col-xs-11">Daftar Perubahan Pertama DPI</p>
+							<span class="col-xs-1 glyphicon glyphicon-save pull-right"></span>
+							<span class="hr-line col-xs-12"></span>
+						</div>
+						<div class="isi">
+							<p class="col-xs-11">Lampiran Daftar Perubahan Pertama DPI</p>
+							<span class="col-xs-1 glyphicon glyphicon-save pull-right"></span>
+							<span class="hr-line col-xs-12"></span>
+						</div>
+					</div>
+					<div class="row">
+						<h4 class="has-border2 text-left">Daftar Perubahan II</h4>
+						<div class="isi">
+							<p class="col-xs-11">Daftar Perubahan Kedua DPI</p>
+							<span class="col-xs-1 glyphicon glyphicon-save pull-right"></span>
+							<span class="hr-line col-xs-12"></span>
+						</div>
+						<div class="isi">
+							<p class="col-xs-11">Lampiran Daftar Perubahan Kedua DPI</p>
+							<span class="col-xs-1 glyphicon glyphicon-save pull-right"></span>
+							<span class="hr-line col-xs-12"></span>
+						</div>
+					</div>
+				</div>
+				<br/>
+				<div align="center" class="container">
+					<a href="#" class="backtotop col-xs-12">
+						<span style="font-size:30px; font-weight:thin;" class="glyphicon glyphicon-menu-up col-xs-12" aria-hidden="true"></span>
+						<h5 class="col-xs-12">Back To Top</h5>
+					</a>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- /MAIN CONTENT -->
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+ 
+  var sync1 = $("#sync1");
+  var sync2 = $("#sync2");
+ 
+  sync1.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    navigation: false,
+    pagination:false,
+    afterAction : syncPosition,
+    responsiveRefreshRate : 200,
+  });
+ 
+  sync2.owlCarousel({
+    items : 15,
+    itemsDesktop      : [1199,10],
+    itemsDesktopSmall     : [979,10],
+    itemsTablet       : [768,8],
+    itemsMobile       : [479,4],
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+      el.find(".owl-item").eq(0).addClass("synced");
+    }
+  });
+ 
+  function syncPosition(el){
+    var current = this.currentItem;
+    $("#sync2")
+      .find(".owl-item")
+      .removeClass("synced")
+      .eq(current)
+      .addClass("synced")
+    if($("#sync2").data("owlCarousel") !== undefined){
+      center(current)
+    }
+  }
+ 
+  $("#sync2").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number = $(this).data("owlItem");
+    sync1.trigger("owl.goTo",number);
+  });
+ 
+  function center(number){
+    var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+    var num = number;
+    var found = false;
+    for(var i in sync2visible){
+      if(num === sync2visible[i]){
+        var found = true;
+      }
+    }
+ 
+    if(found===false){
+      if(num>sync2visible[sync2visible.length-1]){
+        sync2.trigger("owl.goTo", num - sync2visible.length+2)
+      }else{
+        if(num - 1 === -1){
+          num = 0;
+        }
+        sync2.trigger("owl.goTo", num);
+      }
+    } else if(num === sync2visible[sync2visible.length-1]){
+      sync2.trigger("owl.goTo", sync2visible[1])
+    } else if(num === sync2visible[0]){
+      sync2.trigger("owl.goTo", num-1)
+    }
+    
+  }
+ 
+});
+
+</script>

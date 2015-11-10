@@ -1,0 +1,60 @@
+/* INDOSAT MAIN ---------------------- */
+/* prepared by SALT Indonesia -------- */
+
+/*
+	Yellow 		#fdc437
+	Yellow-2 	#ffc907
+	Red 		#ed1c24
+	Red-2 		#e9152c
+	Blue 		#00aeea
+	Teal 		#3fc0b0
+	Grey		#414141
+*/
+
+/* ---------->>> GLOBAL <<<----------- */
+html,body {font-family:'FuturaStd-Book';}
+.row img {max-width:100%;}
+
+
+/* ----------->>> ICONS <<<----------- */
+.icon-search {width:19px; height:19px; background:url(../img/icon-search.png) center center no-repeat; display:inline-block;}
+
+
+/* ---------->>> HEADER <<<----------- */
+.header-top {background:#fdc437; padding:0; margin:0; min-height:auto; border:0;}
+.header-top .navbar-nav > li > a {color:#1d1d1b; font-family:'FuturaStd-Medium'; padding: 3px 10px; margin-top: 5px; margin-bottom:5px; line-height: 16px; font-size:11px; display: inline-block; vertical-align: middle;}
+.header-top .navbar-nav>.active>a,
+.header-top .navbar-nav>.active>a:focus,
+.header-top .navbar-nav>.active>a:hover {background:#060607; color:#fff; border-radius:5px; font-size:12px;}
+.header-top .nav-language > li > a {color:#333333; font-family:'FuturaStd-Bold'; font-size:11px;border-left: 2px solid #333;padding: 0px 8px;line-height: 14px;margin: 9px 0;}
+.header-top .nav-language > li:first-child > a {border:none;}
+.header-top .nav-language>.active>a,
+.header-top .nav-language>.active>a:focus,
+.header-top .nav-language>.active>a:hover {background:none; color:#ed1c24; box-shadow:none; font-size:12px;}
+
+
+/* ------>>> MAIN NAVIGATION <<<------ */
+.main-navigation {background:#ed1c24; margin:0; border:none;}
+.main-navigation h1 {font-size:0px; display: inline-block; vertical-align: middle;}
+.main-navigation h1 img {height:60px;}
+.main-navigation ul {width:100%;}
+.main-navigation .navbar-nav > li > a {font-family:'ooredoo-Bold'; font-size:14px; color:#fff; text-align:center; padding:0; width:140px; line-height:80px; height:80px; border-right:1px solid #fff;}
+.main-navigation .navbar-nav > li:first-child > a {border-left:1px solid;}
+.main-navigation .navbar-nav > li > a span {display:inline-block; vertical-align:middle; line-height:normal;}
+.main-navigation .navbar-nav > li.li-search {float:right;}
+.main-navigation .navbar-nav > li.li-search > a {border-left:1px solid #fff;}
+
+
+/* ------>>> MAIN CONTENT <<<------ */
+.main-content {background:url(../img/bg-main-content.png) repeat;}
+.main-content .container {background:#fff; width:1280px; padding:0 90px;}
+
+
+/* ------->>> HERO BANNER <<<------ */
+.hero-banner {position:relative;}
+.hero-banner .cycle-pager-container {position:absolute; top:30%; right:17%;}
+.hero-banner .cycle-pager {position:absolute; top:0; right:0;}
+.hero-banner .cycle-pager span {display: block; margin-bottom:10px; border-radius: 50%;width: 15px;height: 15px;font-size: 0;cursor: pointer; background:#fff; border:1px solid red; opacity: 1;}
+.hero-banner .cycle-pager span.cycle-pager-active {background:#fee300;}
+.hero-banner .cycle-carousel-wrap {width:100%;}
+.hero-banner .item {height:390px; background-position:center center; background-repeat:no-repeat;}

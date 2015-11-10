@@ -1,0 +1,326 @@
+<!doctype html>
+<!--[if lt IE 9]>
+<html class="lt-ie9" lang="">
+<![endif]-->
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Indosat Revamp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl.transitions.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <link rel="stylesheet" href="assets/css/indosat-main.css">
+
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <div class="container-fluid header">
+            <div class="row">
+                <nav class="navbar navbar-default navbar-static-top header-top">
+                    <div class="container"> 
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Personal</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">About Indosat</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                        </ul>
+                        <div class="pull-right">
+                            <ul class="nav navbar-nav nav-language">
+                                <li class="active"><a href="#">English</a></li>
+                                <li><a href="#">Indonesian</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="navbar navbar-default navbar-static-top main-navigation">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><h1><img src="assets/img/logo.png"/> Indosat Ooredoo</h1></a></li>
+                            <li><a href="#"><span>Why<br/>Indosat Ooreedo</span></a></li>
+                            <li><a href="#"><span>Product</span></a></li>
+                            <li><a href="#"><span>International &amp;<br/>Roaming Package</span></a></li>
+                            <li><a href="#"><span>Content &amp;<br/>Services</span></a></li>
+                            <li><a href="#"><span>Support</span></a></li>
+                            <li class="li-search"><a href="#"><span> <span class="icon-search"></span> Search</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- /HEADER -->
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <!--div class="cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item"><a href="#">dfdfd</a></div>
+                    <div class="item"><a href="#">dfdfdfdfdf</a></div>
+                    <div class="item"><a href="#">ddfddf</a></div>
+                </div-->
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-1.jpg)"><a href="#">dfdfd</a></div>
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-2.jpg)"><a href="#">dfdfdfdfdf</a></div>
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-3.jpg)"><a href="#">ddfddf</a></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+            
+            <div class="row">
+                <div class="container">
+                    
+                
+                    <!-- TABS-HEADLINE -->
+                    <div class="row tabs-headline voffset-30">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab-news-promo" aria-controls="home" role="tab" data-toggle="tab"><span class="icon-tab-news-promo"></span>Hot News and Promo</a></li>
+                            <li role="presentation"><a href="#tab-social-wall" aria-controls="profile" role="tab" data-toggle="tab"><span class="icon-tab-social-wall"></span>Social Wall</a></li>
+                            <li role="presentation"><a href="#tab-login-instant" aria-controls="messages" role="tab" data-toggle="tab"><span class="icon-tab-login-instant"></span>Login to Instant</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="tab-news-promo">
+                                <div class="owl-carousel">
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-1.jpg"></div>
+                                        <div class="caption blue">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-2.jpg"></div>
+                                        <div class="caption yellow">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-3.jpg"></div>
+                                        <div class="caption red">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-4.jpg"></div>
+                                        <div class="caption teal">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-1.jpg"></div>
+                                        <div class="caption blue">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-2.jpg"></div>
+                                        <div class="caption yellow">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-3.jpg"></div>
+                                        <div class="caption red">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="item col-md-12">
+                                        <div class="image"><img src="assets/img/content/thumb-4.jpg"></div>
+                                        <div class="caption teal">
+                                            <h2>Instantly Perfect with Super 4G LTE</h2>
+                                            <p>Inovasi berkoneksi 3 kali super cepat, mewujudkan segala ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-social-wall">
+                                tab social wall
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-login-instant">
+                                tab login instant
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /TABS-HEADLINE --> 
+
+                    <div class="row voffset-30">
+                        <div class="col-md-12">
+                            <a href="#"><img src="assets/img/content/banner-digital-blog.jpg"></a>
+                        </div>
+                    </div> 
+                    <div class="row voffset-30">
+                        <div class="col-md-4">
+                            <a href="#" class="thumb-grey thumb-personal-assistant">
+                                <h2>Personal Assistant</h2>
+                                <p>Membuat hidup kamu lebih mudah!</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="thumb-grey thumb-download-center">
+                                <h2>Download Center</h2>
+                                <p>Mudahkan Gaya Hidup Digital Kamu Dengan Aplikasi Dari Indosat</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb-grey thumb-lokasi-galeri">
+                                <h2>Lokasi Galeri</h2>
+                                <p>Super WI FI &amp; Area 3G Indosat</p>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="input-cari-lokasi"/>
+                                    </div>
+                                    <button type="submit" class="btn btn-default btn-red">Cari Lokasi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row voffset-30">
+                        <div class="col-md-6">
+                            <a href="#"><img src="assets/img/content/banner-bundle.jpg"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="assets/img/content/banner-package.jpg"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="container-fluid footer">
+            <nav class="navbar navbar-default footer-top row">
+                <div class="container"> 
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">GCG</a></li>
+                        <li><a href="#">Indosat Singapore</a></li>
+                        <li><a href="#">Indosat M2</a></li>
+                        <li><a href="#">Lintasarta</a></li>
+                        <li><a href="#">Conexus</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Term &amp; Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Ooredoo</a></li>
+                    </ul>
+                    <div class="pull-right">
+                        <a href="#" class="close-footer">Tutup</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="row footer-body footer-socmed">
+                <div class="container">
+                    <div class="row align-center">
+                        <a href="#"><img src="assets/img/icon-fb.png"></a>
+                        <a href="#"><img src="assets/img/icon-tw.png"></a>
+                        <a href="#"><img src="assets/img/icon-yt.png"></a>
+                        <a href="#"><img src="assets/img/icon-ig.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-body footer-nav">
+                <div class="container">
+                    <div class="row align-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="#"><span class="icon-footer icon-footer-1"></span>Why Indosat Ooredoo</a>
+                                <ul>
+                                    <li><a href="#">Consumer Delight Manifest</a></li>
+                                    <li><a href="#">The Data-Strongest Network</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="icon-footer icon-footer-1"></span>Product</a>
+                                <ul>
+                                    <li><a href="#">IM3</a></li>
+                                    <li><a href="#">Mentari</a></li>
+                                    <li><a href="#">Matrix</a></li>
+                                    <li><a href="#">Features</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="icon-footer icon-footer-2"></span>Internet &amp; Roaming Package</a>
+                                <ul>
+                                    <li><a href="#">All About 4G+</a></li>
+                                    <li><a href="#">International &amp; Roaming</a></li>
+                                    <li><a href="#">Package Simulator</a></li>
+                                    <li><a href="#">Internet Speed Test</a></li>
+                                    <li><a href="#">Coverage Map</a></li>
+                                    <li><a href="#">Slow Connection Calculator</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="icon-footer icon-footer-3"></span>Content &amp; Services</a>
+                                <ul>
+                                    <li><a href="#">Content Hub</a></li>
+                                    <li><a href="#">Indosat Snap App</a></li>
+                                    <li><a href="#">Content Arena</a></li>
+                                    <li><a href="#">Indosat Digital Services</a></li>
+                                    <li><a href="#">Promo Indosat</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="icon-footer icon-footer-4"></span>Support</a>
+                                <ul>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Indosat Gallery</a></li>
+                                    <li><a href="#">Community (iCity)</a></li>
+                                    <li><a href="#">Tips &amp; FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>                               
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /FOOTER -->
+        
+        
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.cycle2.js"></script>
+        <script src="assets/js/jquery.cycle2.carousel.js"></script>
+        <script src="assets/js/indosat-main.js"></script>
+    </body>
+</html>

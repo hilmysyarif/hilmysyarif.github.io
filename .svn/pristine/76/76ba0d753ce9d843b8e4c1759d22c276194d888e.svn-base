@@ -1,0 +1,291 @@
+<!doctype html>
+<!--[if lt IE 9]>
+<html class="lt-ie9" lang="">
+<![endif]-->
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Indosat Revamp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <script src="assets/js/vendor/selectivizr-min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="assets/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+        <link rel="stylesheet" href="assets/vendor/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css">
+        <link rel="stylesheet" href="assets/vendor/jQuery.mmenu/dist/core/css/jquery.mmenu.all.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl.transitions.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <link rel="stylesheet" href="assets/css/indosat-main.css">
+        <link rel="stylesheet" href="assets/css/indosat-vendor.css">
+        <link rel="stylesheet" href="assets/css/salt-pardo.css">
+		<link rel="stylesheet" href="assets/css/salt-rudy.css">
+		<link rel="stylesheet" href="assets/css/indosat-mobile.css">
+
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+	
+		<nav id="menu">
+		<div id="app">
+			<ul>
+				<li class="parent">
+					<span>Personal</span>
+					<div id="panel-personal">
+						<ul>
+							<li>
+								<span>asd 1</span>
+								<ul>
+									<li><a href="#">asd 1</a></li>
+									<li><a href="#">asd 2</a></li>
+									<li><a href="#">asd 3</a></li>
+									<li><a href="#">asd 4</a></li>
+									<li><a href="#">asd 5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">asd 2</a></li>
+							<li><a href="#">asd 3</a></li>
+							<li><a href="#">asd 4</a></li>
+							<li><a href="#">asd 5</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="parent">
+					<span>Business</span>
+					<div id="panel-business">
+						<ul>
+							<li>
+								<span>asd 1</span>
+								<ul>
+									<li><a href="#">asd 1</a></li>
+									<li><a href="#">asd 2</a></li>
+									<li><a href="#">asd 3</a></li>
+									<li><a href="#">asd 4</a></li>
+									<li><a href="#">asd 5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">asd 2</a></li>
+							<li><a href="#">asd 3</a></li>
+							<li><a href="#">asd 4</a></li>
+							<li><a href="#">asd 5</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="parent">
+					<span>Tentang Indosat</span>
+					<div id="panel-about">
+						<ul>
+							<li>
+								<span>asd 1</span>
+								<ul>
+									<li><a href="#">asd 1</a></li>
+									<li><a href="#">asd 2</a></li>
+									<li><a href="#">asd 3</a></li>
+									<li><a href="#">asd 4</a></li>
+									<li><a href="#">asd 5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">asd 2</a></li>
+							<li><a href="#">asd 3</a></li>
+							<li><a href="#">asd 4</a></li>
+							<li><a href="#">asd 5</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="parent">
+					<span>Investor Relations</span>
+					<div id="panel-investor">
+						<ul>
+							<li>
+								<span>asd 1</span>
+								<ul>
+									<li><a href="#">asd 1</a></li>
+									<li><a href="#">asd 2</a></li>
+									<li><a href="#">asd 3</a></li>
+									<li><a href="#">asd 4</a></li>
+									<li><a href="#">asd 5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">asd 2</a></li>
+							<li><a href="#">asd 3</a></li>
+							<li><a href="#">asd 4</a></li>
+							<li><a href="#">asd 5</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</nav>
+		
+        <!-- HEADER -->
+        <div id="site-header" class="container-fluid header">
+			
+			<div class="row">
+				<div class="display-table middle">
+					<div class="col-xs-3 display-cell lang-wrapper">
+						<a href="#">Eng</a>
+						<span>|</span>
+						<a href="#">Ind</a>
+					</div>
+					<div class="col-xs-6 display-cell header-logo">
+						<a href="/"><img src="assets/img/logo.png" alt="Indosat ooredoo" /></a>
+					</div>
+					<div class="col-xs-3 display-cell header-menu">
+						<a href="#menu"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+					</div>
+				</div>
+			</div>
+			
+        </div>
+        <!-- /HEADER -->
+		
+		<div id="site-container"></div>
+
+        <!-- FOOTER -->
+        <div id="site-footer" class="container-fluid footer">
+            <div class="row footer-body footer-socmed">
+                <div class="container">
+                    <div class="row align-center">
+                        <a href="#"><img src="assets/img/icon-fb.png"></a>
+                        <a href="#"><img src="assets/img/icon-tw.png"></a>
+                        <a href="#"><img src="assets/img/icon-yt.png"></a>
+                        <a href="#"><img src="assets/img/icon-ig.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /FOOTER -->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script src="assets/vendor/jQuery.mmenu/dist/core/js/jquery.mmenu.min.all.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.cycle2.js"></script>
+        <script src="assets/js/jquery.cycle2.carousel.js"></script>
+        <script src="assets/js/indosat-main.js"></script>
+		
+		<script>
+		$(function(){
+			
+			// THIS SCRIPT IS FOR FRONTEND ONLY
+			// {
+			
+			function callHeroBanner() {
+				if($('.cycle-slideshow').length>0) {
+					$( '.cycle-slideshow' ).cycle();
+				}
+				if($(".no-flexbox .flex-list").length>0) {
+					
+					$.each($(".flex-list"), function(idx, value){
+						var heightMost = 0;
+						$.each($(this).find(".flex-item"),function(eq,val){
+							var thisHeight = $(this).height();
+							if(heightMost<thisHeight){
+								heightMost = thisHeight;
+							}
+						});
+						$(this).css({ "overflow": "hidden" });
+						$(this).find(".flex-item").css({
+							"height": (heightMost+10),
+							"display": "inline",
+							"float": "left",
+						});
+					});
+					
+				}
+			}
+			
+			var currentDate = new Date();
+			var host = window.location.protocol + "://" + window.location.host + "/" + window.location.pathname;
+			var pathArray = window.location.pathname.split( '/' );
+			var page = "pages/"+ pathArray[3] +".html";
+			
+			if(pathArray[3]!==""){
+				$("#site-container").load(page, function(response, status, xhr){
+					if ( status == "error" ) {
+						$("#site-container").load("pages/home.html?uid=" + currentDate.valueOf(), callHeroBanner);
+					} else {
+						callHeroBanner();
+					}
+					
+				});
+			} else {
+				$("#site-container").load("pages/home.html", function(response, status, xhr){					
+					callHeroBanner();					
+				});
+			}
+			
+			// }
+			// FRONTEND SCRIPT END
+			
+		});
+		</script>
+		
+		<script type="text/javascript">
+			var headerHeight = $("#site-header").height();
+			$(function() {
+				$("#menu")
+					.mmenu({
+						offCanvas	: {
+							  zposition: "front",
+							  modal		: true
+						   },
+						extensions	: ["theme-black"],
+						navbars		: true,
+					})
+					.on('init', function(){
+						var clone = $("#app .mm-listview").html();
+						$("#menu").prepend('<div class="menu-tab"><ul>' + clone + '</ul></div>');
+					})
+					.css("top",headerHeight)
+					.on( 'click',
+						'a[href^="#/"]',
+						function() {
+							//alert( "Thank you for clicking, but that's a demo link." );
+							//return false;
+						}
+					)
+					.trigger( "init" );
+				
+				/*
+				var api = $("#menu").data( "mmenu" );
+				api.bind( "init", function( $panel ) {
+					console.log("Add");
+					//var clone = $("#app .mm-listview").html();
+					//$("#menu").prepend(clone);
+				});
+				//api.openPanel( $("#my-panel") );
+				*/
+				
+				/*
+				var api = $("#menu").data( "mmenu" );
+				console.log(api);
+				  api.bind( "init", function( $panel ) {
+					 console.log( "This panel is now opened:" + $panel.attr( "id" ) );
+				  });
+				  api.openPanel( $("#panel-personal") );
+				  */
+				
+			});
+		</script>
+		
+    </body>
+</html>

@@ -1,0 +1,183 @@
+
+
+        <!-- HERO BANNER -->
+        <div class="container-fluid hero-banner">
+            <div class="row">
+                <div class="hero-banner-wrapper cycle-slideshow vertical" data-slides=".item"  data-cycle-fx="carousel" data-carousel-vertical="true" data-cycle-pager="#hero-pager">
+                    <div class="item" style="background-image:url(assets/img/content/hero-banner-4.jpg)"></div>
+                </div>
+                <div class="row">
+                    <div class="container cycle-pager-container">
+                        <div class="cycle-pager" id="hero-pager"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /HERO BANNER -->
+
+        <!-- MAIN CONTENT -->
+        <div class="container-fluid main-content">
+
+            
+            <div class="row">
+                <div class="container no-background">			
+				
+
+					<!-- featured banner -->
+					<div class="group-featured-banner">
+					
+						<div class="row featured-banner background-white">
+							<img class="theImage" src="assets/img/content/digital-nation.jpg" alt="For you we give a lot of bonuses!" />
+							<div class="theContent">
+								<div class="theWrapper">
+									<h3>
+										We have truly become<br />
+										a digital nation to be proud of
+									</h3>
+									<p class="subTitle">
+										And now Indosat Ooredoo is bringing you<br />
+										the digital experience you deserve
+									</p>
+									<div class="theButton">
+										<a href="#" class="defaultButton biggest">Find more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row featured-banner background-white">
+							<img class="theImage" src="assets/img/content/personalised.jpg" alt="For you we give a lot of bonuses!" />
+							<div class="theContent">
+								<div class="theWrapper">
+									<h3>
+										Feel the difference with<br />
+										the personalised service<br />
+										we all deserve
+									</h3>
+									<p class="subTitle">
+										With more than 72 million active netizens,<br />
+										Indonesia is fast growing mobile nation.
+									</p>
+									<div class="theButton">
+										<a href="#" class="defaultButton biggest">Find out now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row featured-banner background-white">
+							<img class="theImage" src="assets/img/content/accessible.jpg" alt="For you we give a lot of bonuses!" />
+							<div class="theContent">
+								<div class="theWrapper">
+									<h3>
+										Accessible, affordable,<br />
+										and simple
+									</h3>
+									<p class="subTitle">
+										We believe the digital world should be accessible,<br />
+										affordable, and as simple as possible. We believe that cost<br />
+										should not be a barrier. That's why we ensure affordable<br />
+										data packages for everybody.
+									</p>
+									<div class="theButton">
+										<a href="#" class="defaultButton biggest">More about product &amp; tariff</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!-- featured banner -->					
+					
+                
+                    <!-- twoBlock Columns -->
+                    <div class="twoBlock-lists">
+						<div class="row">
+							
+							<div class="col-md-6 items">
+								<div class="content" style="background-image:url(assets/img/content/4g-plus.jpg)">
+									<h3>
+										Introducing 4GPlus<br />
+										Indonesia just got faster
+									</h3>
+									<p>
+										We need a high speed network wherever we go. So we upgrade our entire
+										mobile network to 4G speeds faster than anyone else, and provide
+										high speed internet access to more Indonesians.
+									</p>
+									
+									<p>
+										Our 4GPlus is truly a high speed connection<br />
+										for everybody, because it’s made for us all.
+									</p>
+									<br />
+									<a href="#" class="std-link">Find more</a>
+								</div>
+							</div>
+							
+							<div class="col-md-6 items">
+								<div class="content" style="background-image:url(assets/img/content/manifesto-updated.jpg)">
+									<h3>
+										Keep you updated<br />
+										with the latest digital trends
+									</h3>
+									<p>
+										Meet our digital gurus
+									</p>
+									<br /><br /><br /><br /><br />
+									<a href="#" class="std-link">Find more</a>
+								</div>
+							</div>
+							
+							<div class="col-md-6 items">
+								<div class="content" style="background-image:url(assets/img/content/manifesto-high-speed.jpg)">
+									<h3>
+										Get ahead with the high speed<br />
+										internet we all deserve
+									</h3>
+									<p>
+										The broadest high speed coverage, for everybody 
+									</p>
+									<br /><br /><br /><br /><br />
+									<a href="#" class="std-link">Find more</a>
+								</div>
+							</div>
+							
+							<div class="col-md-6 items">
+								<div class="content" style="background-image:url(assets/img/content/manifesto-faster.jpg)">
+									<h3>
+										The faster way<br />
+										to stay connected
+									</h3>
+									<p>
+										The digital experience we deserve
+									</p>
+									<br /><br /><br /><br /><br />
+									<a href="#" class="std-link">Find more</a>
+								</div>
+							</div>
+							
+						</div>
+                    </div>
+                    <!-- /twoBlock Columns --> 
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /MAIN CONTENT -->
+		
+		
+	<script>
+	$(document).ready(function(){
+	
+		$('.owl-carousel').owlCarousel({
+			'items' : 4,
+			'navigation' : true,
+			'pagination' : false
+		});
+
+
+	});
+	</script>

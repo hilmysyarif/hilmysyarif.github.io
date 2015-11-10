@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	
+	$('.owl-carousel').owlCarousel({
+		'items' : 4,
+		'navigation' : true,
+		'pagination' : false
+	});
+
+
+});
+
